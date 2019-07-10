@@ -4,7 +4,7 @@
     to those listed in the seed job.
 
     * FOLDER_NAME: "Sandboxes"
-    * BASIC_AUTH_USER 
+    * BASIC_AUTH_USER
     * BASIC_AUTH_PASS
     * ACCESS_CONTROL: List of orgs / orgs*teams who get github access
     * CONFIGURATION_SECURE_REPO (required)
@@ -167,9 +167,6 @@ class CreateSandbox {
                 booleanParam("set_whitelabel",false,
                              "Check this in order to create a Sandbox with whitelabel themes automatically set.")
                 stringParam("themes_version","master","")
-
-                booleanParam("journals",false,"Journals service")
-                stringParam("journals_version","master","")
 
                 booleanParam("registrar",false,"Enable the Registrar service")
                 stringParam("registrar_version","master","")
